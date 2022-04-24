@@ -1,0 +1,15 @@
+{
+  "name": "Simple api sholat",
+  "description": "api sholat.",
+  "image": "heroku/python",
+  "repository": "https://github.com/heroku/python-getting-started",
+  "keywords": ["python"],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python main.py",
+        "test": "python main.py test"
+      }
+    }
+  }
+}
